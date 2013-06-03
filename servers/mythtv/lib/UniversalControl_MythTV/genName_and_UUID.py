@@ -74,7 +74,7 @@ def name(filename="UCServer.name",n=None):
 
     FILE = open(filename,"w")
     if n is None:
-        n = "Example MythTV Box"
+        n = "Example-MythTV-Box"
     FILE.write(str(n) + "\n")
     FILE.close()
 
